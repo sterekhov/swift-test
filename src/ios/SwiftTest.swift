@@ -21,7 +21,7 @@ import Foundation
         
         pluginResult = CDVPluginResult(
             status: CDVCommandStatus_OK,
-            messageAs: msg
+            messageAs: backMsg
         )
         
         self.commandDelegate!.send(
