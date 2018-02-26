@@ -1,0 +1,25 @@
+{
+  "name": "SwiftTest",
+  "version": "1.0.0",
+  "description": "cordova plugin",
+  "cordova": {
+    "id": "plugin-swift-test",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sterekhov/swift-test.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sterekhov/swift-test/issues"
+  },
+  "homepage": "https://github.com/sterekhov/swift-test#readme"
+}
