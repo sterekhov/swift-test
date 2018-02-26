@@ -15,14 +15,9 @@ import Foundation
         )
         
         let msg = command.arguments[0] as? String ?? ""
-        print("SwiftTest in native \(msg)")
+        print("SwiftTest sent message: \(msg)")
         
-        var backMsg = "SwiftTest return message "
-        if msg.characters.count > 0 {
-            backMsg += msg
-        } else {
-            "SwiftTest coming back"
-        }
+        var backMsg = "SwiftTest return message: \(msg)"
         
         pluginResult = CDVPluginResult(
             status: CDVCommandStatus_OK,
