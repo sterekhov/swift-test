@@ -1,0 +1,2 @@
+# swift-test
+cordova plugin
